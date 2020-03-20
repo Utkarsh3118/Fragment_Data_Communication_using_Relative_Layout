@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heath Information"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/tv_healthinfo"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/tv_healthinfo"
+        android:id="@+id/tv_username_health"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_username_health"
+        android:id="@+id/et_username_health" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood group"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_username_health"
+        android:id="@+id/tv_blood_group"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Blood Group"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_blood_group"
+        android:id="@+id/et_blood_group" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_blood_group"
+        android:id="@+id/tv_weight"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Weight"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:inputType="number"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_weight"
+        android:id="@+id/et_weight" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ContactNo"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_weight"
+        android:id="@+id/tv_contactno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:layout_below="@id/tv_contactno"
+        android:id="@+id/et_contactno" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Next >"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:background="@drawable/button_round"
+        android:layout_below="@id/et_contactno"
+        android:id="@+id/b2"/>
+
+</RelativeLayout>

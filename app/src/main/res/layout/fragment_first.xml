@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Information"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/tv_userinfo"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/tv_userinfo"
+        android:id="@+id/tv_username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_username"
+        android:id="@+id/et_username" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_username"
+        android:id="@+id/tv_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_email"
+        android:id="@+id/et_email" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_email"
+        android:id="@+id/tv_address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_address"
+        android:id="@+id/et_address" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PhoneNo"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/et_address"
+        android:id="@+id/tv_phno"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:background="@drawable/edit_text_round"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:inputType="phone"
+        android:layout_below="@id/tv_phno"
+        android:id="@+id/et_phno" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Next >"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:layout_below="@id/et_phno"
+        android:background="@drawable/button_round"
+        android:id="@+id/b1"/>
+</RelativeLayout>
